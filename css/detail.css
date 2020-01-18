@@ -1,0 +1,434 @@
+.logo {
+  margin-left: 40px;
+}
+.logo .logo-cf-up {
+  display: inline-block;
+  width: 270px;
+  height: 90px;
+  background: url(../images/logo-cf-up.png) no-repeat;
+  background-size: 325px 100px;
+}
+.logo .ico-comm2 {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: bottom;
+  width: 185px;
+  height: 71px;
+  background: url(../images/ico-comm5.png) no-repeat;
+}
+.ico-detail {
+  background: url(../images/ico-detail.png);
+}
+.mainwrap {
+  width: 1280px;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 40px;
+}
+.mainwrap .comm-tit {
+  margin: 20px 0 40px;
+  height: 27px;
+  line-height: 27px;
+}
+.mainwrap .comm-tit .index-link {
+  color: #828282;
+  margin-left: -8px;
+}
+.mainwrap .comm-tit .ml5 {
+  margin-left: 5px;
+}
+.mainwrap .comm-tit span {
+  padding-left: 8px;
+}
+.mainwrap .product-intro {
+  padding: 30px 0 35px;
+  width: 1280px;
+  min-height: 540px;
+  background: #ffffff;
+}
+.mainwrap .product-intro .product-preview {
+  margin: 0 40px 0 30px;
+  width: 460px;
+  height: 440px;
+}
+.mainwrap .product-intro .product-preview .good-imgs {
+  width: 100%;
+  height: 100%;
+}
+.mainwrap .product-intro .product-preview .good-imgs .picshow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.mainwrap .product-intro .product-preview .good-imgs .picshow #mask {
+  width: 175px;
+  height: 175px;
+  background: paleturquoise;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  display: none;
+  cursor: move;
+}
+.mainwrap .product-intro .product-preview .good-imgs .picshow .bigPicShow {
+  width: 460px;
+  height: 440px;
+  position: absolute;
+  top: 0;
+  left: 488px;
+  overflow: hidden;
+  display: none;
+  z-index: 50;
+}
+.mainwrap .product-intro .product-preview .good-imgs .picshow .bigPicShow img {
+  width: 920px;
+  height: 880px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mainwrap .product-intro .product-preview .picdetails {
+  margin-top: 20px;
+  width: 540px;
+  height: 100px;
+}
+.mainwrap .product-intro .product-preview .picdetails li {
+  float: left;
+  width: 78px;
+  height: 74px;
+  margin-right: 14px;
+  border: 1px solid #f2f2f2;
+}
+.mainwrap .product-intro .product-preview .picdetails li a {
+  display: block;
+  width: 74px;
+  height: 70px;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+}
+.mainwrap .product-intro .product-preview .picdetails li a img {
+  display: block;
+  width: 74px;
+  height: 70px;
+}
+.mainwrap .product-intro .product-info {
+  width: 720px;
+}
+.mainwrap .product-intro .product-info .pord-name {
+  width: 100%;
+  line-height: 36px;
+  font-size: 28px;
+  color: #333333;
+}
+.mainwrap .product-intro .product-info .prod-tips {
+  padding: 22px 0 0;
+  width: 100%;
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 15px;
+}
+.mainwrap .product-intro .product-info .pord-price {
+  margin: 20px 0 15px;
+  width: 100%;
+}
+.mainwrap .product-intro .product-info .pord-price .pord-dispri {
+  color: #f74f4a;
+  font-size: 30px;
+  line-height: 31px;
+  font-weight: bold;
+}
+.mainwrap .product-intro .product-info .pord-price .pord-dispri strong {
+  font-size: 36px;
+}
+.mainwrap .product-intro .product-info .pord-orpri {
+  padding-left: 5px;
+  font-size: 16px;
+  line-height: 38px;
+  text-decoration: line-through;
+  color: #999999;
+}
+.mainwrap .product-intro .product-info .pord-saleinfo {
+  margin: 10px 0 15px;
+  width: 100%;
+  height: 16px;
+  font-size: 14px;
+  color: #cc6600;
+  line-height: 16px;
+}
+.mainwrap .product-intro .product-info .pord-saleinfo .pord-salebox {
+  margin-right: 22px;
+}
+.mainwrap .product-intro .product-info .pord-saleinfo .pord-salebox .ico-vip {
+  width: 30px;
+  height: 16px;
+  background-position: -251px -2px;
+}
+.mainwrap .product-intro .product-info .pord-saleinfo .pord-salebox i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainwrap .product-intro .product-info .pord-saleinfo .vip-link {
+  color: #3c95e8;
+  font-size: 14px;
+}
+.mainwrap .product-intro .product-info .pord-gift {
+  margin-bottom: 14px;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+.mainwrap .product-intro .product-info .pord-gift .gift-mark {
+  padding: 1px 4px;
+  background: #ffcccc;
+  border: 1px solid #ff3333;
+  display: inline-block;
+}
+.mainwrap .product-intro .product-info .pord-gift span {
+  padding-left: 8px;
+}
+.mainwrap .product-intro .product-info .pord-detailbox {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px dashed #eeeeee;
+  border-bottom: 1px dashed #eeeeee;
+  font-size: 14px;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-sold {
+  width: 310px;
+  color: #999999;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-sold span {
+  color: #333333;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-totalcom {
+  color: #999999;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-totalcom span {
+  color: #333333;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-starbox {
+  font-size: 20px;
+  color: #ffd92c;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-starbox .i-star10 {
+  background-position: 0 -104px;
+}
+.mainwrap .product-intro .product-info .pord-detailbox .pord-starbox i {
+  margin: -4px 6px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 111px;
+  height: 18px;
+}
+.mainwrap .product-intro .product-info .pord-sellist {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+}
+.mainwrap .product-intro .product-info .pord-sellist ul {
+  width: 660px;
+}
+.mainwrap .product-intro .product-info .pord-sellist ul li {
+  float: left;
+  margin: 0 0 10px 9px;
+  border: 1px solid #dddddd;
+  color: #333333;
+  text-align: center;
+  line-height: 14px;
+  cursor: pointer;
+}
+.mainwrap .product-intro .product-info .pord-sellist ul li .pord-selbox {
+  border-color: #f74a4a;
+  padding: 7px 17px;
+  border: 2px solid #ffffff;
+}
+.mainwrap .product-intro .product-info .pord-sellist ul .current {
+  border-color: #f74a4a;
+}
+.mainwrap .product-intro .product-info .pord-sellist .m28 {
+  margin-left: 28px;
+}
+.mainwrap .product-intro .product-info .mt10 {
+  margin-top: 10px;
+}
+.mainwrap .product-intro .product-info .pord-num {
+  width: 100%;
+  height: auto;
+}
+.mainwrap .product-intro .product-info .pord-num .pt10 {
+  margin-top: 10px;
+}
+.mainwrap .product-intro .product-info .pord-num label {
+  color: #888;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 {
+  margin-left: 42px;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 .num-plus {
+  width: 34px;
+  height: 34px;
+  display: block;
+  text-indent: -9999em;
+  border: 1px solid #dddddd;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 .num-plus .ico-detail {
+  margin: 16px auto;
+  width: 10px;
+  height: 2px;
+  background-position: -2px -2px;
+  display: block;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 .nummidbtn {
+  width: 58px;
+  height: 34px;
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  line-height: 34px;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  cursor: default;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 .num-minus {
+  width: 34px;
+  height: 34px;
+  display: block;
+  text-indent: -9999em;
+  border: 1px solid #dddddd;
+}
+.mainwrap .product-intro .product-info .pord-num .ml42 .num-minus .ico-detail {
+  display: block;
+  margin: 12px auto;
+  width: 10px;
+  height: 10px;
+  background-position: -16px -2px;
+}
+.mainwrap .product-intro .product-info .pord-num .pord-stock {
+  font-size: 14px;
+  color: #5e6360;
+  padding-left: 10px;
+  line-height: 34px;
+}
+.mainwrap .product-intro .product-info label {
+  color: #888888;
+  margin-top: 5px;
+}
+.mainwrap .product-intro .pord-btn {
+  margin-top: 25px;
+}
+.mainwrap .product-intro .pord-btn a {
+  display: block;
+  width: 200px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 1;
+}
+.mainwrap .product-intro .pord-btn .joincart-btn {
+  background: #e34424;
+}
+.mainwrap .product-intro .pord-btn .buy-btn {
+  background: #e34424;
+}
+.mainwrap .product-intro .pord-btn .ml30 {
+  margin-left: 30px;
+}
+.mainwrap .product-intro .pord-btn .btn-collect {
+  margin: 12px 0 0 30px;
+  display: block;
+  width: 84px;
+  height: 28px;
+  border: 2px solid #dddddd;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #888888;
+  position: relative;
+  text-indent: 16px;
+  line-height: 28px;
+}
+.mainwrap .product-intro .pord-btn .btn-collect .ico-collect {
+  position: absolute;
+  top: 7px;
+  left: 14px;
+  z-index: 2;
+  width: 16px;
+  height: 14px;
+  background-position: -107px -2px;
+}
+.mainwrap .product-intro .pord-btn .btn-collected .ico-collect {
+  left: 9px;
+  background-position: -127px -2px;
+  position: absolute;
+  top: 7px;
+  z-index: 2;
+  width: 16px;
+  height: 14px;
+}
+.mainwrap .porduct-detail {
+  width: 1280px;
+  height: auto;
+  color: #ffffff;
+}
+.mainwrap .porduct-detail .pord-tab {
+  margin: 0 auto 20px;
+  width: 1220px;
+  height: 71px;
+  border-bottom: 1px solid #eeeeee;
+}
+.mainwrap .porduct-detail .pord-tab ul {
+  margin: 0 auto;
+  width: 705px;
+}
+.mainwrap .porduct-detail .pord-tab ul li {
+  float: left;
+  width: 235px;
+  height: 71px;
+  line-height: 71px;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.mainwrap .porduct-detail .pord-tab ul li .i-tabline {
+  background: #ec4828;
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+.mainwrap .porduct-detail .parameter {
+  font-size: 14px;
+  color: #777777;
+  margin-left: 44px;
+  height: 40px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.mainwrap .porduct-detail .parameter li {
+  width: 300px;
+  margin-bottom: 6px;
+  float: left;
+}
+.mainwrap .porduct-detail .bigPhoto {
+  width: 1280px;
+  margin-top: 40px;
+}
+.mainwrap .porduct-detail .bigPhoto img {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}

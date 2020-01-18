@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="top-bar">
+        <div class="top-action">
+            <!-- 中间信息栏 -->
+            <div class="top-info">
+                <div class="mid clearfix">
+                    <div class="fl logo">
+                        <a href="" class="logo-cf-up"></a>
+                        <a href="" class="ico-comm2"></a>
+                    </div>
+
+                    <a href="cart.html" class="cartbox fr clearfix">
+                        <i class="fl ico-comm i-cart"></i>
+                        <span>购物车</span>
+                        <div class="fr cart-num">0</div>
+                    </a>
+                    <div class="fr log_reg-bar">
+                        <!-- 登录前 -->
+                        <div class="log_reg-box login_ago">
+                            <i class="ico-comm i-person"></i>
+                            <a id="login">登录</a>
+                        </div>
+                        <!-- 登录后 -->
+                        <div class="log_reg-box login_after">
+
+                        </div>
+                    </div>
+                    <div class="fr log_reg-bar">
+                        <!-- 注册 -->
+                        <div class="log_reg-box">
+                            <i class="ico-comm i-person ico-reg"></i>
+                            <a id="register">注册</a>
+                        </div>
+                    </div>
+                    <div class="fr clear-fix sosobox">
+                        <a href="#" class="ico-comm i-search"></a>
+                        <input type="text" class="top-soso" placeholder="请输入想要找的宝贝">
+                    </div>
+                </div>
+            </div>
+            <!-- 顶部的头部 -->
+            <div class="top-head">
+                <!-- 菜单 -->
+                <div class="top-menu">
+                    <div class="mid clear-fix">
+                        <ul class="fl menulist clear-fix">
+                            <li>
+                                <a href="index.html" class="ico-comm">首页</a>
+                            </li>
+                            <li> <a href="#" class="ico-comm">枪模主题站</a></li>
+                            <li> <a href="#" class="ico-comm">包类专区</a></li>
+                            <li> <a href="#" class="ico-comm">数码外设</a></li>
+                            <li> <a href="#" class="ico-comm">家具日常</a></li>
+                            <li> <a href="#" class="ico-comm">模型手办</a></li>
+                        </ul>
+                        <a href="#" class="fr all-class">
+                            <span>全部商品分类</span>
+                            <i class="ico-comm i-arrbot"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- 子菜单 -->
+                <div class="top-submenu" style="display: none;">
+                    <div class="mid clearfix">
+                        <ul class="submenu-ul">
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu01.png" alt="">
+                                    <p>服饰鞋帽</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">卫衣/外套</a>
+                                    </li>
+                                    <li>
+                                        <a href="">T恤</a>
+                                    </li>
+                                    <li>
+                                        <a href="">袜子</a>
+                                    </li>
+                                    <li>
+                                        <a href="">裤子</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">裤子</a>
+                                    </li>
+                                    <li>
+                                        <a href="">鞋子</a>
+                                    </li>
+                                    <li>
+                                        <a href="">帽子</a>
+                                    </li>
+                                    <li>
+                                        <a href="">服饰配件</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu02.png" alt="">
+                                    <p>玩具毛绒</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">公仔</a>
+                                    </li>
+                                    <li>
+                                        <a href="">抱枕</a>
+                                    </li>
+                                    <li>
+                                        <a href="">手办</a>
+                                    </li>
+                                    <li>
+                                        <a href="">雕塑</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu03.png" alt="">
+                                    <p>数码配件</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">手机壳</a>
+                                    </li>
+                                    <li>
+                                        <a href="">充电宝</a>
+                                    </li>
+                                    <li>
+                                        <a href="">鼠标垫/鼠标</a>
+                                    </li>
+                                    <li>
+                                        <a href="">U盘</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">数据线</a>
+                                    </li>
+                                    <li>
+                                        <a href="">打火机</a>
+                                    </li>
+                                    <li>
+                                        <a href="">无线充电器</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu04.png" alt="">
+                                    <p>生活用品</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">杯子</a>
+                                    </li>
+                                    <li>
+                                        <a href="">钥匙扣</a>
+                                    </li>
+                                    <li>
+                                        <a href="">伞</a>
+                                    </li>
+                                    <li>
+                                        <a href="">眼罩/耳罩</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">美妆个护</a>
+                                    </li>
+                                    <li>
+                                        <a href="">其它</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu05.png" alt="">
+                                    <p>箱包收纳</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">双肩包</a>
+                                    </li>
+                                    <li>
+                                        <a href="">单肩包</a>
+                                    </li>
+                                    <li>
+                                        <a href="">收纳包</a>
+                                    </li>
+                                    <li>
+                                        <a href="">眼罩/耳罩</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">美妆个护</a>
+                                    </li>
+                                    <li>
+                                        <a href="">其它</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu06.png" alt="">
+                                    <p>首饰配饰</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">手链</a>
+                                    </li>
+                                    <li>
+                                        <a href="">项链</a>
+                                    </li>
+                                    <li>
+                                        <a href="">挂件</a>
+                                    </li>
+                                    <li>
+                                        <a href="">戒指</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="">其它</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu07.png" alt="">
+                                    <p>文具图书</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">笔记本</a>
+                                    </li>
+                                    <li>
+                                        <a href="">胶带/贴纸</a>
+                                    </li>
+                                    <li>
+                                        <a href="">文件夹</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu08.png" alt="">
+                                    <p>休闲零食</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">糖/巧克力</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu09.png" alt="">
+                                    <p>海报艺术</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">画册</a>
+                                    </li>
+                                    <li>
+                                        <a href="">海报</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="submenu-li">
+                                <a href="" class="class-name">
+                                    <img src="images/submenu10.png" alt="">
+                                    <p>其它</p>
+                                </a>
+                                <ul class="class-list">
+                                    <li>
+                                        <a href="">纪念币</a>
+                                    </li>
+                                    <li>
+                                        <a href="">礼盒</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体内容 -->
+    <div class="wrap">
+        <div class="mainwrap">
+            <div class="mycart" id="blk_cart_list">
+             <div class="mycart-th clearfix">
+                 <p class="fl sp-1">&nbsp;</p>
+                 <p class="fl sp-2">&nbsp;</p>
+                 <p class="fl sp-3">商品信息</p>
+                 <p class="fl sp-4">&nbsp;</p>
+                 <p class="fl sp-5">单价(元)</p>
+                 <p class="fl sp-6">&nbsp;</p>
+                 <p class="fl sp-7">金额(元)</p>
+                 <p class="fl sp-8">操作</p>
+
+
+
+
+
+
+
+             </div>
+             <div class="mycart-pack cartbox">
+                 <div class="mycart-shop">
+                     <span class="input-check cartcheck">
+                         <i></i>
+                     </span>
+                     <p class="mycart-shop-t">穿越火线供应商：合泰文化</p>
+                 </div>
+                 <!-- 占位 -->
+                 <div class="mycart-list" style="display: none;">
+                    <div class="mycart-item">
+                        <div class="mycart-item-tb">
+                            <div class="mycart-item-row cartlist clearfix">
+                                <div class="fl sp-1">
+                                    <span class="goodscheck input-check">
+                                        <i></i>
+                                    </span>
+                                </div>
+                                <div class="fl sp-2">
+                                    <div class="mycart-item-img">
+                                        <img src="images/minPhotoGood1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="fl sp-3">
+                                    <p class="mycart-item-name">
+                                        <a href="javascrip:;">M4A1-雷神 英雄级手办模型</a>
+                                    </p>
+                                    <div class="mycart-item-tag"></div>
+                                    <div class="mycart-item-em">赠品：主题收集-M4A1-雷神枪模*1 </div>
+                                </div>
+                                <div class="fl sp-4">
+                                    <div class="mycart-item-sel disabled">
+                                        <p>枪模：标准</p>
+                                    </div>
+                                </div>
+                                <div class="fl sp-5">
+                                    <p class="mycart-item-per">
+                                        498.00 元
+                                    </p>
+                                </div>
+                                <div class="fl sp-6">
+                                    <div class="mycart-item-count">
+                                    <span class="num-minus btn_cart_list_buy_min">-</span>
+                                    <input type="text" class="inpt_cart_list_buy_num" value="1">
+                                    <span class="num-plus btn_cart_list_buy_plus">+</span>
+                                   </div>
+                                </div>
+                                <div class="fl sp-7">
+                                   <div class="mycart-item-price">0</div>
+                                </div>
+                                <div class="fl sp-8">
+                                    <div class="mycart-item-tg">
+                                        <a href="javascript:;" class="btn-del">删除</a>
+                                        <a href="javascript:;" class="btn-fav">移入收藏夹</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- <div class="mycart-list">
+                     <div class="mycart-item">
+                         <div class="mycart-item-tb">
+                             <div class="mycart-item-row cartlist clearfix">
+                                 <div class="fl sp-1">
+                                     <span class="goodscheck input-check">
+                                         <i></i>
+                                     </span>
+                                 </div>
+                                 <div class="fl sp-2">
+                                     <div class="mycart-item-img">
+                                         <img src="images/minPhotoGood1.jpg" alt="">
+                                     </div>
+                                 </div>
+                                 <div class="fl sp-3">
+                                     <p class="mycart-item-name">
+                                         <a href="javascrip:;">M4A1-雷神 英雄级手办模型<span>【全款预售】</span></a>
+                                     </p>
+                                     <div class="mycart-item-tag"></div>
+                                     <div class="mycart-item-em">赠品：主题收集-M4A1-雷神枪模*1 </div>
+                                 </div>
+                                 <div class="fl sp-4">
+                                     <div class="mycart-item-sel disabled">
+                                         <p>枪模：标准</p>
+                                     </div>
+                                 </div>
+                                 <div class="fl sp-5">
+                                     <p class="mycart-item-per">
+                                         498.00 元
+                                     </p>
+                                 </div>
+                                 <div class="fl sp-6">
+                                     <div class="mycart-item-count">
+                                     <span class="num-minus btn_cart_list_buy_min">-</span>
+                                     <input type="text" class="inpt_cart_list_buy_num" value="1">
+                                     <span class="num-plus btn_cart_list_buy_plus">+</span>
+                                    </div>
+                                 </div>
+                                 <div class="fl sp-7">
+                                    <div class="mycart-item-price">498.00</div>
+                                 </div>
+                                 <div class="fl sp-8">
+                                     <div class="mycart-item-tg">
+                                         <a href="javascript:;" class="btn-del">删除</a>
+                                         <a href="javascript:;" class="btn-fav">移入收藏夹</a>
+
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div> -->
+                 <div class="mycart-tb clearfix">
+                     <div class="mycart-tb-info">
+                         <p>已选商品
+                             <b class="total">0</b> 件&nbsp;&nbsp;总价：
+                             <b class="money">0.00</b>
+                         </p>
+                         <p class="b">不含运费和其他优惠</p>
+                        </div>
+                        <a class="mycart-tb-btn">去结算</a>
+                 </div>
+             </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="mid clearfix">
+            <a href="#" class="footer-logo">
+                <img src="images/footer_logo.png" alt="">
+            </a>
+            <ul class="fl footer-info">
+                <li><a href="#">
+                        <span class="ico-comm_fo ico_01"></span>购物指南
+                    </a></li>
+                <li><a href="#">
+                        <span class="ico-comm_fo ico_02"></span>配送方式
+                    </a></li>
+                <li><a href="#">
+                        <span class="ico-comm_fo ico_03"></span>常见操作
+                    </a></li>
+                <li><a href="#">
+                        <span class="ico-comm_fo ico_04"></span>售后服务
+                    </a></li>
+                <li><a href="#">
+                        <span class="ico-comm_fo ico_05"></span>关于我们
+                    </a></li>
+            </ul>
+            <ul class="footer-QR fl">
+                <li><img src="images/QR1.jpg" alt="">
+                    <p>聚城品公众号</p>
+                </li>
+                <li>
+                    <img src="images/QR2.jpg" alt="">
+                    <p>道聚城公众号</p>
+                </li>
+                <li class="QR3">
+                    <img src="images/QR3.jpg" alt="">
+                    <p>掌上道具城</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- 底部ied -->
+    <div id="footer_ied">
+        <div class="mid wrap_ied">
+            <p>
+                <a href="">腾讯互动娱乐</a> |
+                <a href="">服务条款</a> |
+                <a href="">腾讯游戏隐私保护指引</a> |
+                <a href="">腾讯游戏儿童隐私保护指引</a> |
+                <a href="">广告服务</a> |
+                <a href="">腾讯游戏招聘</a> |
+                <a href="">腾讯游戏客服</a> |
+                <a href="">游戏地图</a> |
+                <a href="">成长守护平台</a> |
+                <a href="">商务合作</a> |
+                <a href="">网站导航</a> |
+            </p>
+            <p class="e">COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.</p>
+            <p>
+                <a href="">腾讯公司 版权所有</a>
+            </p>
+        </div>
+    </div>
+    <!-- 登录与注册的遮罩 -->
+    <div id="zheZhao"></div>
+    <!-- 登录显示框 -->
+    <div id="login_warp">
+        <div class="QQ_bar">
+            <div class="QQ">
+                <i class="ico-login ico-q"></i>
+                <span>QQ账号登录</span>
+            </div>
+            <div class="wechat">
+                <i class="ico-login ico-w"></i>
+                <span>微信账号登录</span>
+                <span id="close_lgin">x</span>
+            </div>
+        </div>
+        <div class="mid_qq">
+            <p class="p_top">QQ和微信是两个独立账号，账号信息不互通</p>
+            <p class="p_center">账号密码登录</p>
+            <p class="p_butten">推荐使用<a href="#">快速安全登录</a>，防止盗号。</p>
+            <div class="login_box">
+                <input type="text" class="account_num">
+                <input type="password" class="pwd">
+                <input type="button" value="登录" class="loginBtn">
+            </div>
+            <ul class="foot_link">
+                <a href="">忘了密码？ | </a>
+                <a href="">注册新账号 | </a>
+                <a href="">意见反馈</a>
+            </ul>
+        </div>
+        <div class="mid_wechat">
+            <p class="p_top">QQ和微信是两个独立账号，账号信息不互通</p>
+            <p class="p-wechat">微信登录</p>
+            <div class="QR-code">
+                <img src="images/QR-code.png" alt="">
+            </div>
+            <div class="foot_txt">
+                <p>请使用微信扫描二维码登录</p>
+                <p>"聚城品"</p>
+            </div>
+        </div>
+    </div>
+    <!-- 注册显示框 -->
+    <div id="register_warp">
+        <div class="register_new">
+            <p>注 册 新 账 户</p>
+            <span id="close_res">x</span>
+        </div>
+        <div class="register_box">
+            <p class="p_name">昵称：</span><input type="text" class="name_reg"><span class="name_tips">nidn</span></p>
+            <p>账号：<input type="text" class="nub reg_nub"><span class="nub_tips">账户不dg头</span></p>
+            <p>密码：<input type="password" class="pwd reg_pwd"><span class="pwd_tips">账户dfgd不dg头</span></p>
+            <p>请再次确认您的密码：<input type="password" class="pwd_again"><span class="againpwd_tips">账户dfgd不dg头</span></p>
+            <p class="p_res"><input type="button" value="注册" class="btn_reg"></p>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/loginAndRegister.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/cartGoods.js"></script>
+</body>
+
+</html>
