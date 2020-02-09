@@ -9,14 +9,14 @@ if(empty($_POST["accountNum"])){
 
     if($tarr){
      //设置cookie信息   登录
-     setCookie("username",$tarr["uname"],null,"/MyCode/Second/Project");
+     setCookie("username",$tarr["uname"],null,"/MyCode/JavaScript/Project");
     //  echo "<script>alert('自动登录成功');location.href= '../index.html'</script>";
       echo "<script>location.href= '../index.html'</script>";
 
     }else{
         //登录失败
         //删除原来的cookie中的token信息
-        setCookie("token","",time(),"/MyCode/Second/Project");
+        setCookie("token","",time(),"/MyCode/JavaScript/Project");
         //登录失败
         echo "<script>location.href='../index.html';</script>";
     

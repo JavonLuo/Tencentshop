@@ -149,7 +149,7 @@ class login {
             _this.date = new Date();
             _this.d = new Date().getTime();
             _this.date.setDate(_this.date.getDate() + 10);
-            setCookie("token", _this.d, _this.date, "/MyCode/Second/Project");
+            setCookie("token", _this.d, _this.date, "/MyCode/JavaScript/Project");
             $.ajax({
                 type: "POST",
                 url: "lib/login.php",
