@@ -76,7 +76,7 @@ class CartGoods {
         })
 
     }
-    // 点击选中所有
+    // 点击选中所有的
     clickAllCheck() {
         var _this = this;
         this.Allcheck.click(function () {
